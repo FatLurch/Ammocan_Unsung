@@ -1,5 +1,5 @@
 # Ammocan Unsung
- This addon extends the fuinctionality of my Ammocan addon in order to support the Unsung DLC
+ This addon extends the fuinctionality of my Ammocan addon in order to support the Unsung DLC for ARMA 3
  
  Original Ammocan on GitHub: https://github.com/FatLurch/Ammocan
  
