@@ -60,6 +60,8 @@ class CfgMagazines
 		displayName = "Ammocan (Unsung) - 100x 7.62x51mm belt";
 		descriptionShort = "Ammocan<br>Caliber: 7.62x51mm<br>100 Rounds (Belt)";
 		magazines[] = {"vn_m60_v_100_mag"};		//This is an array of magazines in game that this ammocan should be compatible with
+		count=100;	//This parameter must match the round count of the magazines specified above for proer behavior. All supported mags per entry should have the same number of rounds
+		
 	};
 	
 	// 100x 12.7x99mm (aka 50 BMG) =====================================================================================================
@@ -69,6 +71,7 @@ class CfgMagazines
 		displayName = "Ammocan (Unsung) - 100x 12.7x99mm belt";
 		descriptionShort = "Ammocan<br>Caliber: 12.7x99<br>100 Rounds (Belt)";
 		magazines[] = {"vn_m2_v_100_mag"};		
+		count=100;
 	};
  	
  	// 2000x 7.62x54mm  =====================================================================================================
@@ -77,7 +80,8 @@ class CfgMagazines
  		//Unsung
 		displayName = "Ammocan (Unsung) - 2000x 7.62x54mm";
 		descriptionShort = "Ammocan<br>Caliber: 7.62x54<br>2000 Rounds";
-		magazines[] = {"vn_m134_v_2000_mag"};		
+		magazines[] = {"vn_m134_v_2000_mag"};
+		count=2000;		
 	};
 	
 	
