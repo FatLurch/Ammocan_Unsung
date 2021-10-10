@@ -5,7 +5,7 @@ class CfgPatches
  		units[] = {};	
  		weapons[] = {};
  		requiredVersion = 0.1;
- 		requiredAddons[] = {"A3_Weapons_F_Mark","Fat_Lurch_Ammocan"};	//You don't have to list any additional addons here in order for the system to work
+ 		requiredAddons[] = {"A3_Weapons_F_Mark","A3_Data_F_Sams_Loadorder","Fat_Lurch_Ammocan"};	//You don't have to list any additional addons here in order for the system to work
 		version="0.1";
 		author="Fat_Lurch";
  	};
