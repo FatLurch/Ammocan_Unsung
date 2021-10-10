@@ -9,6 +9,7 @@
  
  It also serves as an example to illustrate how others can use Ammocan as a framework to support ammo from other addons
 
+
 **Troubleshooting:**
 
 - Ensure your ammocan is listed in the resultant array when you enter this command into the debug console: `getArray (configFile >> "cfgWeapons" >> "ammocan_fake_gun" >> "magazines")`; 
