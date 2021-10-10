@@ -11,5 +11,9 @@
 
 **Troubleshooting:**
 
-Ensure your ammocan is listed in the resultant array when you enter this command into the debug console: `getArray (configFile >> "cfgWeapons" >> "ammocan_fake_gun" >> "magazines")`; 
+- Ensure your ammocan is listed in the resultant array when you enter this command into the debug console: `getArray (configFile >> "cfgWeapons" >> "ammocan_fake_gun" >> "magazines")`; 
 If your item doens't show up, ensure it's listed in the ammocan_fake_gun magazines array.
+
+- Ensure you get back the name of an ammocan when you enter `["yourMagazineName"] call fatLurch_fnc_findAmmocanType;` into the debug console. 
+
+- The magazine you define in any new ammocan must actually be compatible with the turret weapon you're trying to use 
