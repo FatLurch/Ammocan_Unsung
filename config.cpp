@@ -33,7 +33,12 @@ class CfgAddons
 // ##############################################################################################
 class cfgWeapons
 {
-	class Rifle_Base_F;
+
+	class Rifle;
+    	class Rifle_Base_F: Rifle
+    	{
+       		class magazines;
+    	};
 	class ammocan_fake_gun:Rifle_Base_F
 	{
 		magazines[] +=
